@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7c823c1b-13a7-46ab-b4bb-1fbbb27af92e"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="JGA_MyTest1">
+	</codegen>
+	<variables>
+		<var
+		id="8a38a5a0-cb20-4f73-9bc0-2f30cec44fb7"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				D:\RanorexDemoApp\RxDemoApp.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="f2e10ffb-7f38-4472-ab03-fe3e1f126284"
+	name="JGA_MyTest1Repository"
+	relativepath="JGA_MyTest1Repository.rxrep">
+		<codegen
+		classname="JGA_MyTest1Repository"
+		namespace="JGA_MyTest1">
+		</codegen>
+		<rootfolder
+		id="0cabbdbf-a8f7-43f3-8254-9d0a4af36bae"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

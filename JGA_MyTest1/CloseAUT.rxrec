@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0be96ba3-4ad2-45cf-9744-635d0e15f4e2"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="JGA_MyTest1">
+	</codegen>
+	<variables>
+		<var
+		id="1561d1e0-b610-4f8f-95e3-bd7d3185f2fe"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="d15318fe-e440-4804-aeb3-f85a0308c8bf">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="f2e10ffb-7f38-4472-ab03-fe3e1f126284"
+	name="JGA_MyTest1Repository"
+	relativepath="JGA_MyTest1Repository.rxrep">
+		<codegen
+		classname="JGA_MyTest1Repository"
+		namespace="JGA_MyTest1">
+		</codegen>
+		<rootfolder
+		id="0cabbdbf-a8f7-43f3-8254-9d0a4af36bae"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
