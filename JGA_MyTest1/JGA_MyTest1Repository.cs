@@ -27,6 +27,7 @@ namespace JGA_MyTest1
     public partial class JGA_MyTest1Repository : RepoGenBaseFolder
     {
         static JGA_MyTest1Repository instance = new JGA_MyTest1Repository();
+        JGA_MyTest1RepositoryFolders.RxMainFrameAppFolder _rxmainframe;
 
         /// <summary>
         /// Gets the singleton class instance representing the JGA_MyTest1Repository element repository.
@@ -43,6 +44,7 @@ namespace JGA_MyTest1
         public JGA_MyTest1Repository() 
             : base("JGA_MyTest1Repository", "/", null, 0, false, "0cabbdbf-a8f7-43f3-8254-9d0a4af36bae", ".\\RepositoryImages\\JGA_MyTest1Repository0cabbdbf.rximgres")
         {
+            _rxmainframe = new JGA_MyTest1RepositoryFolders.RxMainFrameAppFolder(this);
         }
 
 #region Variables
@@ -60,6 +62,15 @@ namespace JGA_MyTest1
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The RxMainFrame folder.
+        /// </summary>
+        [RepositoryFolder("3052cd2b-4b25-499c-bc12-9f7d44d72199")]
+        public virtual JGA_MyTest1RepositoryFolders.RxMainFrameAppFolder RxMainFrame
+        {
+            get { return _rxmainframe; }
+        }
     }
 
     /// <summary>
@@ -68,6 +79,175 @@ namespace JGA_MyTest1
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     public partial class JGA_MyTest1RepositoryFolders
     {
+        /// <summary>
+        /// The RxMainFrameAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("3052cd2b-4b25-499c-bc12-9f7d44d72199")]
+        public partial class RxMainFrameAppFolder : RepoGenBaseFolder
+        {
+            JGA_MyTest1RepositoryFolders.RxTabIntroductionFolder _rxtabintroduction;
+
+            /// <summary>
+            /// Creates a new RxMainFrame  folder.
+            /// </summary>
+            public RxMainFrameAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("RxMainFrame", "/form[@controlname='RxMainFrame']", parentFolder, 30000, null, true, "3052cd2b-4b25-499c-bc12-9f7d44d72199", "")
+            {
+                _rxtabintroduction = new JGA_MyTest1RepositoryFolders.RxTabIntroductionFolder(this);
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("3052cd2b-4b25-499c-bc12-9f7d44d72199")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("3052cd2b-4b25-499c-bc12-9f7d44d72199")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The RxTabIntroduction folder.
+            /// </summary>
+            [RepositoryFolder("8ac26309-5a18-44f5-9d7c-587061b02615")]
+            public virtual JGA_MyTest1RepositoryFolders.RxTabIntroductionFolder RxTabIntroduction
+            {
+                get { return _rxtabintroduction; }
+            }
+        }
+
+        /// <summary>
+        /// The RxTabIntroductionFolder folder.
+        /// </summary>
+        [RepositoryFolder("8ac26309-5a18-44f5-9d7c-587061b02615")]
+        public partial class RxTabIntroductionFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _enteryournameInfo;
+            RepoItemInfo _btnsubmitusernameInfo;
+            RepoItemInfo _lblwelcomemessageInfo;
+
+            /// <summary>
+            /// Creates a new RxTabIntroduction  folder.
+            /// </summary>
+            public RxTabIntroductionFolder(RepoGenBaseFolder parentFolder) :
+                    base("RxTabIntroduction", "?/?/tabpage[@controlname='RxTabIntroduction']", parentFolder, 30000, null, false, "8ac26309-5a18-44f5-9d7c-587061b02615", "")
+            {
+                _enteryournameInfo = new RepoItemInfo(this, "EnterYourName", "?/?/text[@accessiblename='Enter your name']", 30000, null, "4c0234fa-82aa-4c3b-a3cc-49f499b27208");
+                _btnsubmitusernameInfo = new RepoItemInfo(this, "BtnSubmitUserName", "button[@controlname='btnSubmitUserName']", 30000, null, "6e010d59-e35b-4504-8641-6b9e26b5cbd9");
+                _lblwelcomemessageInfo = new RepoItemInfo(this, "LblWelcomeMessage", "text[@controlname='lblWelcomeMessage']", 30000, null, "aeeb5070-27f0-49aa-82c8-71218a9d5d2f");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("8ac26309-5a18-44f5-9d7c-587061b02615")]
+            public virtual Ranorex.TabPage Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.TabPage>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("8ac26309-5a18-44f5-9d7c-587061b02615")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EnterYourName item.
+            /// </summary>
+            [RepositoryItem("4c0234fa-82aa-4c3b-a3cc-49f499b27208")]
+            public virtual Ranorex.Text EnterYourName
+            {
+                get
+                {
+                    return _enteryournameInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EnterYourName item info.
+            /// </summary>
+            [RepositoryItemInfo("4c0234fa-82aa-4c3b-a3cc-49f499b27208")]
+            public virtual RepoItemInfo EnterYourNameInfo
+            {
+                get
+                {
+                    return _enteryournameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The BtnSubmitUserName item.
+            /// </summary>
+            [RepositoryItem("6e010d59-e35b-4504-8641-6b9e26b5cbd9")]
+            public virtual Ranorex.Button BtnSubmitUserName
+            {
+                get
+                {
+                    return _btnsubmitusernameInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The BtnSubmitUserName item info.
+            /// </summary>
+            [RepositoryItemInfo("6e010d59-e35b-4504-8641-6b9e26b5cbd9")]
+            public virtual RepoItemInfo BtnSubmitUserNameInfo
+            {
+                get
+                {
+                    return _btnsubmitusernameInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LblWelcomeMessage item.
+            /// </summary>
+            [RepositoryItem("aeeb5070-27f0-49aa-82c8-71218a9d5d2f")]
+            public virtual Ranorex.Text LblWelcomeMessage
+            {
+                get
+                {
+                    return _lblwelcomemessageInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LblWelcomeMessage item info.
+            /// </summary>
+            [RepositoryItemInfo("aeeb5070-27f0-49aa-82c8-71218a9d5d2f")]
+            public virtual RepoItemInfo LblWelcomeMessageInfo
+            {
+                get
+                {
+                    return _lblwelcomemessageInfo;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }

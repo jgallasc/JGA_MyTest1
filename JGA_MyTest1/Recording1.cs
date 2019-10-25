@@ -73,12 +73,24 @@ namespace JGA_MyTest1
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 300;
+            Mouse.DefaultMoveTime = 0;
             Keyboard.DefaultKeyPressTime = 20;
-            Delay.SpeedFactor = 1.00;
+            Delay.SpeedFactor = 0.00;
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabIntroduction.EnterYourName' at 47;7.", repo.RxMainFrame.RxTabIntroduction.EnterYourNameInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.RxTabIntroduction.EnterYourName.Click("47;7");
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Jörg G.' with focus on 'RxMainFrame.RxTabIntroduction.EnterYourName'.", repo.RxMainFrame.RxTabIntroduction.EnterYourNameInfo, new RecordItemIndex(1));
+            repo.RxMainFrame.RxTabIntroduction.EnterYourName.PressKeys("Jörg G.");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabIntroduction.BtnSubmitUserName' at 44;13.", repo.RxMainFrame.RxTabIntroduction.BtnSubmitUserNameInfo, new RecordItemIndex(2));
+            repo.RxMainFrame.RxTabIntroduction.BtnSubmitUserName.Click("44;13");
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Welcome, Jörg G.!') on item 'RxMainFrame.RxTabIntroduction.LblWelcomeMessage'.", repo.RxMainFrame.RxTabIntroduction.LblWelcomeMessageInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.RxMainFrame.RxTabIntroduction.LblWelcomeMessageInfo, "Text", "Welcome, Jörg G.!");
+            
         }
 
 #region Image Feature Data
