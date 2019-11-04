@@ -6,8 +6,8 @@
       "Name": "template1",
       "Body": {
         "fields": {
-          "summary": "Ranorex test case $(TestCaseName)",
-          "description": "Testausführung von $(ActivityStart) --> Ranorex TestCaseTag $(TestCaseTag)",
+          "summary": "Ranorex test case $(TestCaseId)",
+          "description": "Testausführung von $(Now) --> Ranorex TestCaseTag $(TestCaseTag)",
           "project": {
             "key": "RXTST"
           },

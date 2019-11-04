@@ -158,8 +158,8 @@ namespace JGA_MyTest1
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.FirstName' at 46;11.", repo.RxMainFrame.RxTabStandard.FirstNameInfo, new RecordItemIndex(25));
             repo.RxMainFrame.RxTabStandard.FirstName.Click("46;11");
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='2') on item 'RxMainFrame.RxTabStandard.LblNumberOfPersonsNumber'.", repo.RxMainFrame.RxTabStandard.LblNumberOfPersonsNumberInfo, new RecordItemIndex(26));
-            Validate.AttributeEqual(repo.RxMainFrame.RxTabStandard.LblNumberOfPersonsNumberInfo, "Text", "2");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='3') on item 'RxMainFrame.RxTabStandard.LblNumberOfPersonsNumber'.", repo.RxMainFrame.RxTabStandard.LblNumberOfPersonsNumberInfo, new RecordItemIndex(26));
+            Validate.AttributeEqual(repo.RxMainFrame.RxTabStandard.LblNumberOfPersonsNumberInfo, "Text", "3");
             
         }
 
