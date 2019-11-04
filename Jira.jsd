@@ -7,7 +7,7 @@
       "Body": {
         "fields": {
           "summary": "Ranorex test case $(TestCaseId)",
-          "description": "Testausführung von $(Now) --> Ranorex TestCaseTag $(TestCaseTag)",
+          "description": "Testausführung vom $(Now) --> Rx TestCaseTag $(TestCaseTag)",
           "project": {
             "key": "RXTST"
           },
@@ -18,7 +18,10 @@
             "name": "Medium"
           },
           "assignee": {
-            "name": "turanorex"
+            "name": "$(UserName)"
+          },
+          "reporter": {
+            "name": "$(UserName)"
           }
         }
       }
@@ -28,7 +31,7 @@
     "Enabled": false,
     "IssueType": "Verbesserung",
     "UrlSettings": {
-      "summary": "Ranorex test case $(TestCaseName)"
+      "summary": "Testfall $(TestCaseName) - Tesfall-ID $(TestCaseId)"
     }
   },
   "UpdateIssueSettings": {

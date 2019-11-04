@@ -5,6 +5,9 @@
 			<testcase
 			id="0c433e01-76c7-40e6-9bb9-ae039243148b"
 			name="TestCase">
+				<description>
+					<![CDATA[Test Rx DemoApp - Anmeldung+Mitglieder]]>
+				</description>
 			</testcase>
 			<setup
 			id="517afb6d-af83-442d-b8d0-f63fe09da6b4"
