@@ -6,8 +6,8 @@
       "Name": "template1",
       "Body": {
         "fields": {
-          "summary": "Autom. Test vom $(Now) - Testfall $(TestCaseName)",
-          "description": "Autom. Testausführung --> Rx TestCaseTag $(TestCaseTag) --> Rx Testfall-ID $(TestCaseId)",
+          "summary": "Testfall $(TestCaseName) - Tesfall-ID $(TestCaseId)",
+          "description": "Testausführung vom $(Now) --> Rx TestCaseTag $(TestCaseTag)",
           "project": {
             "key": "RXTST"
           },
@@ -16,6 +16,9 @@
           },
           "priority": {
             "name": "Medium"
+          },
+          "assignee": {
+            "name": "$(UserName)"
           },
           "reporter": {
             "name": "$(UserName)"
