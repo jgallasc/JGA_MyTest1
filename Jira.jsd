@@ -7,7 +7,7 @@
       "Body": {
         "fields": {
           "summary": "Autom. Test vom $(Now) - Testfall $(TestCaseName)",
-          "description": "Testausführung vom $(Now) --> Rx TestCaseTag $(TestCaseTag)",
+          "description": "Testausführung vom $(Now) --> Rx TestCaseTag $(TestCaseTag) --> Rx Testfall-ID $(TestCaseId)",
           "project": {
             "key": "RXTST"
           },

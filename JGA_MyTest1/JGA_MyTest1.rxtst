@@ -4,10 +4,7 @@
 		<flatlistofchildren>
 			<testcase
 			id="0c433e01-76c7-40e6-9bb9-ae039243148b"
-			name="Test_Rx-DemoApp_-_Anmeldung+Mitglieder">
-				<description>
-					<![CDATA[Test Rx DemoApp - Anmeldung+Mitglieder]]>
-				</description>
+			name="TF1_RxDemoApp_Welcome+Database">
 			</testcase>
 			<setup
 			id="517afb6d-af83-442d-b8d0-f63fe09da6b4"
@@ -109,7 +106,7 @@
 					</setup>
 					<testcase
 					id="0c433e01-76c7-40e6-9bb9-ae039243148b"
-					name="Test_Rx-DemoApp_-_Anmeldung+Mitglieder">
+					name="TF1_RxDemoApp_Welcome+Database">
 						<setup
 						id="88fe8740-b104-4b2c-82d0-521201c27dad"
 						name="setup">
