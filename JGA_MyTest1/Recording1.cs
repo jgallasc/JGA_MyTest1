@@ -91,6 +91,76 @@ namespace JGA_MyTest1
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Welcome, Jörg G.!') on item 'RxMainFrame.RxTabIntroduction.LblWelcomeMessage'.", repo.RxMainFrame.RxTabIntroduction.LblWelcomeMessageInfo, new RecordItemIndex(3));
             Validate.AttributeEqual(repo.RxMainFrame.RxTabIntroduction.LblWelcomeMessageInfo, "Text", "Welcome, Jörg G.!");
             
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.TestDatabase' at 40;9.", repo.RxMainFrame.TestDatabaseInfo, new RecordItemIndex(4));
+            repo.RxMainFrame.TestDatabase.Click("40;9");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.FirstName' at 39;10.", repo.RxMainFrame.RxTabStandard.FirstNameInfo, new RecordItemIndex(5));
+            repo.RxMainFrame.RxTabStandard.FirstName.Click("39;10");
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Anton' with focus on 'RxMainFrame.RxTabStandard.FirstName'.", repo.RxMainFrame.RxTabStandard.FirstNameInfo, new RecordItemIndex(6));
+            repo.RxMainFrame.RxTabStandard.FirstName.PressKeys("Anton");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.LastName' at 51;8.", repo.RxMainFrame.RxTabStandard.LastNameInfo, new RecordItemIndex(7));
+            repo.RxMainFrame.RxTabStandard.LastName.Click("51;8");
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Alpha' with focus on 'RxMainFrame.RxTabStandard.LastName'.", repo.RxMainFrame.RxTabStandard.LastNameInfo, new RecordItemIndex(8));
+            repo.RxMainFrame.RxTabStandard.LastName.PressKeys("Alpha");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.Text1001' at 129;3.", repo.RxMainFrame.RxTabStandard.Text1001Info, new RecordItemIndex(9));
+            repo.RxMainFrame.RxTabStandard.Text1001.Click("129;3");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.OEffnen' at 7;12.", repo.RxMainFrame.RxTabStandard.OEffnenInfo, new RecordItemIndex(10));
+            repo.RxMainFrame.RxTabStandard.OEffnen.Click("7;12");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'List1000.Development' at 105;8.", repo.List1000.DevelopmentInfo, new RecordItemIndex(11));
+            repo.List1000.Development.Click("105;8");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.UpDownEdit' at 35;6.", repo.RxMainFrame.RxTabStandard.UpDownEditInfo, new RecordItemIndex(12));
+            repo.RxMainFrame.RxTabStandard.UpDownEdit.Click("35;6");
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}25' with focus on 'RxMainFrame.RxTabStandard.UpDownEdit'.", repo.RxMainFrame.RxTabStandard.UpDownEditInfo, new RecordItemIndex(13));
+            repo.RxMainFrame.RxTabStandard.UpDownEdit.PressKeys("{Back}25");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.RdbMale' at 7;8.", repo.RxMainFrame.RxTabStandard.RdbMaleInfo, new RecordItemIndex(14));
+            repo.RxMainFrame.RxTabStandard.RdbMale.Click("7;8");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.BtnAddPerson' at 26;9.", repo.RxMainFrame.BtnAddPersonInfo, new RecordItemIndex(15));
+            repo.RxMainFrame.BtnAddPerson.Click("26;9");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.FirstName' at 37;4.", repo.RxMainFrame.RxTabStandard.FirstNameInfo, new RecordItemIndex(16));
+            repo.RxMainFrame.RxTabStandard.FirstName.Click("37;4");
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Berta{Tab}' with focus on 'RxMainFrame.RxTabStandard.FirstName'.", repo.RxMainFrame.RxTabStandard.FirstNameInfo, new RecordItemIndex(17));
+            repo.RxMainFrame.RxTabStandard.FirstName.PressKeys("Berta{Tab}");
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Beta' with focus on 'RxMainFrame'.", repo.RxMainFrame.SelfInfo, new RecordItemIndex(18));
+            repo.RxMainFrame.Self.EnsureVisible();
+            Keyboard.Press("Beta");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.OEffnen' at 6;8.", repo.RxMainFrame.RxTabStandard.OEffnenInfo, new RecordItemIndex(19));
+            repo.RxMainFrame.RxTabStandard.OEffnen.Click("6;8");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'List1000.Marketing' at 46;6.", repo.List1000.MarketingInfo, new RecordItemIndex(20));
+            repo.List1000.Marketing.Click("46;6");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.UpDownEdit' at 44;4.", repo.RxMainFrame.RxTabStandard.UpDownEditInfo, new RecordItemIndex(21));
+            repo.RxMainFrame.RxTabStandard.UpDownEdit.Click("44;4");
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}30{Tab}' with focus on 'RxMainFrame.RxTabStandard.UpDownEdit'.", repo.RxMainFrame.RxTabStandard.UpDownEditInfo, new RecordItemIndex(22));
+            repo.RxMainFrame.RxTabStandard.UpDownEdit.PressKeys("{Back}30{Tab}");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.RdbFemale' at 3;10.", repo.RxMainFrame.RxTabStandard.RdbFemaleInfo, new RecordItemIndex(23));
+            repo.RxMainFrame.RxTabStandard.RdbFemale.Click("3;10");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.BtnAddPerson' at 21;9.", repo.RxMainFrame.BtnAddPersonInfo, new RecordItemIndex(24));
+            repo.RxMainFrame.BtnAddPerson.Click("21;9");
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabStandard.FirstName' at 46;11.", repo.RxMainFrame.RxTabStandard.FirstNameInfo, new RecordItemIndex(25));
+            repo.RxMainFrame.RxTabStandard.FirstName.Click("46;11");
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='2') on item 'RxMainFrame.RxTabStandard.LblNumberOfPersonsNumber'.", repo.RxMainFrame.RxTabStandard.LblNumberOfPersonsNumberInfo, new RecordItemIndex(26));
+            Validate.AttributeEqual(repo.RxMainFrame.RxTabStandard.LblNumberOfPersonsNumberInfo, "Text", "2");
+            
         }
 
 #region Image Feature Data
