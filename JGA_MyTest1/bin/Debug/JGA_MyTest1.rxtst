@@ -26,7 +26,6 @@
 			reportwriteinterval="30000ms">
 			</testsuite>
 			<testmodule
-			enabled="False"
 			id="6df0c0ee-eb83-420b-aad7-4ffc8ebe57f7"
 			name="CloseAUT"
 			ref="0be96ba3-4ad2-45cf-9744-635d0e15f4e2"

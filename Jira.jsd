@@ -1,0 +1,40 @@
+{
+  "ServerUrl": "http://localhost:8100/",
+  "ProjectKey": "RXTST",
+  "Templates": [
+    {
+      "Name": "template1",
+      "Body": {
+        "fields": {
+          "summary": "Ranorex test case $(TestCaseName)",
+          "description": "Testausführung von $(ActivityStart) --> Ranorex TestCaseTag $(TestCaseTag)",
+          "project": {
+            "key": "RXTST"
+          },
+          "issuetype": {
+            "name": "Bug"
+          },
+          "priority": {
+            "name": "Medium"
+          },
+          "assignee": {
+            "name": "turanorex"
+          }
+        }
+      }
+    }
+  ],
+  "CreateLinkSettings": {
+    "Enabled": false,
+    "IssueType": "Verbesserung",
+    "UrlSettings": {
+      "summary": "Ranorex test case $(TestCaseName)"
+    }
+  },
+  "UpdateIssueSettings": {
+    "Enabled": true,
+    "ClosedState": "Fertig",
+    "OpenState": "Aufgaben",
+    "CreationTemplate": "template1"
+  }
+}

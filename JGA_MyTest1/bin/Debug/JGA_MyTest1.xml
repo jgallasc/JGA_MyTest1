@@ -73,6 +73,11 @@
             The RxMainFrame folder.
             </summary>
         </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1Repository.List1000">
+            <summary>
+            The List1000 folder.
+            </summary>
+        </member>
         <member name="T:JGA_MyTest1.JGA_MyTest1RepositoryFolders">
             <summary>
             Inner folder classes.
@@ -98,9 +103,34 @@
             The Self item info.
             </summary>
         </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxMainFrameAppFolder.TestDatabase">
+            <summary>
+            The TestDatabase item.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxMainFrameAppFolder.TestDatabaseInfo">
+            <summary>
+            The TestDatabase item info.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxMainFrameAppFolder.BtnAddPerson">
+            <summary>
+            The BtnAddPerson item.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxMainFrameAppFolder.BtnAddPersonInfo">
+            <summary>
+            The BtnAddPerson item info.
+            </summary>
+        </member>
         <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxMainFrameAppFolder.RxTabIntroduction">
             <summary>
             The RxTabIntroduction folder.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxMainFrameAppFolder.RxTabStandard">
+            <summary>
+            The RxTabStandard folder.
             </summary>
         </member>
         <member name="T:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabIntroductionFolder">
@@ -151,6 +181,146 @@
         <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabIntroductionFolder.LblWelcomeMessageInfo">
             <summary>
             The LblWelcomeMessage item info.
+            </summary>
+        </member>
+        <member name="T:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder">
+            <summary>
+            The RxTabStandardFolder folder.
+            </summary>
+        </member>
+        <member name="M:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxTabStandard  folder.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.OEffnen">
+            <summary>
+            The OEffnen item.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.OEffnenInfo">
+            <summary>
+            The OEffnen item info.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.RdbFemale">
+            <summary>
+            The RdbFemale item.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.RdbFemaleInfo">
+            <summary>
+            The RdbFemale item info.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.RdbMale">
+            <summary>
+            The RdbMale item.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.RdbMaleInfo">
+            <summary>
+            The RdbMale item info.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.FirstName">
+            <summary>
+            The FirstName item.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.FirstNameInfo">
+            <summary>
+            The FirstName item info.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.LastName">
+            <summary>
+            The LastName item.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.LastNameInfo">
+            <summary>
+            The LastName item info.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.Text1001">
+            <summary>
+            The Text1001 item.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.Text1001Info">
+            <summary>
+            The Text1001 item info.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.UpDownEdit">
+            <summary>
+            The UpDownEdit item.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.UpDownEditInfo">
+            <summary>
+            The UpDownEdit item info.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.LblNumberOfPersonsNumber">
+            <summary>
+            The LblNumberOfPersonsNumber item.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.RxTabStandardFolder.LblNumberOfPersonsNumberInfo">
+            <summary>
+            The LblNumberOfPersonsNumber item info.
+            </summary>
+        </member>
+        <member name="T:JGA_MyTest1.JGA_MyTest1RepositoryFolders.List1000AppFolder">
+            <summary>
+            The List1000AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:JGA_MyTest1.JGA_MyTest1RepositoryFolders.List1000AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new List1000  folder.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.List1000AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.List1000AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.List1000AppFolder.Development">
+            <summary>
+            The Development item.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.List1000AppFolder.DevelopmentInfo">
+            <summary>
+            The Development item info.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.List1000AppFolder.Marketing">
+            <summary>
+            The Marketing item.
+            </summary>
+        </member>
+        <member name="P:JGA_MyTest1.JGA_MyTest1RepositoryFolders.List1000AppFolder.MarketingInfo">
+            <summary>
+            The Marketing item info.
             </summary>
         </member>
         <member name="T:JGA_MyTest1.Recording1">

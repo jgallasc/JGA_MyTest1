@@ -6,6 +6,10 @@
 			id="0c433e01-76c7-40e6-9bb9-ae039243148b"
 			name="TestCase">
 			</testcase>
+			<setup
+			id="517afb6d-af83-442d-b8d0-f63fe09da6b4"
+			name="setup">
+			</setup>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -57,6 +61,12 @@
 			id="88fe8740-b104-4b2c-82d0-521201c27dad"
 			name="setup">
 			</setup>
+			<testmodule
+			id="b7146cae-8d42-40ea-bf19-cba1e56a4941"
+			name="SetupJiraIntegration"
+			ref="c87d3889-8e1f-4009-b203-8bd062ef46c9"
+			type="UserCode">
+			</testmodule>
 			<teardown
 			id="e22f18b5-c09a-4cc4-8cff-845896247dae"
 			name="teardown">
@@ -86,6 +96,14 @@
 				<testcase
 				id="eb2e4ff4-d17f-4c6b-928d-f1102f7b7e90"
 				name="JGA_MyTest1">
+					<setup
+					id="517afb6d-af83-442d-b8d0-f63fe09da6b4"
+					name="setup">
+						<testmodule
+						id="b7146cae-8d42-40ea-bf19-cba1e56a4941"
+						name="SetupJiraIntegration">
+						</testmodule>
+					</setup>
 					<testcase
 					id="0c433e01-76c7-40e6-9bb9-ae039243148b"
 					name="TestCase">
