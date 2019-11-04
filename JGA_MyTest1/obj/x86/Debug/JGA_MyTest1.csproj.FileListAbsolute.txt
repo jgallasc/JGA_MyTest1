@@ -1,0 +1,10 @@
+D:\Projekte Ranorex Studio\JGA_MyTest1\JGA_MyTest1\bin\Debug\JGA_MyTest1.rxtmg
+D:\Projekte Ranorex Studio\JGA_MyTest1\JGA_MyTest1\bin\Debug\JGA_MyTest1.rxtst
+D:\Projekte Ranorex Studio\JGA_MyTest1\JGA_MyTest1\bin\Debug\JGA_MyTest1.exe.config
+D:\Projekte Ranorex Studio\JGA_MyTest1\JGA_MyTest1\bin\Debug\JGA_MyTest1.xml
+D:\Projekte Ranorex Studio\JGA_MyTest1\JGA_MyTest1\bin\Debug\JGA_MyTest1.exe
+D:\Projekte Ranorex Studio\JGA_MyTest1\JGA_MyTest1\bin\Debug\JGA_MyTest1.pdb
+D:\Projekte Ranorex Studio\JGA_MyTest1\JGA_MyTest1\bin\Debug\Ranorex.Core.Resolver.dll
+D:\Projekte Ranorex Studio\JGA_MyTest1\JGA_MyTest1\obj\x86\Debug\JGA_MyTest1.csprojResolveAssemblyReference.cache
+D:\Projekte Ranorex Studio\JGA_MyTest1\JGA_MyTest1\obj\x86\Debug\JGA_MyTest1.exe
+D:\Projekte Ranorex Studio\JGA_MyTest1\JGA_MyTest1\obj\x86\Debug\JGA_MyTest1.pdb

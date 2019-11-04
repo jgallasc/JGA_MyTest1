@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="10.95s"
+		durationms="10945"
+		type="root"
+		rid="1abddbea6b733160"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Jörg Gallasch"
+		rxversion="9.2.0.0"
+		host="DESKTOP-4VAJVCD"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="de-DE"
+		screenresolution="1920x1080"
+		timestamp="25.10.2019 16:16:12"
+		timestampiso="2019-10-25T14:16:12"
+		endtime="25.10.2019 16:16:23"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="StartAUT">
+		<detail>
+			StartAUT
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.901"
+			timeRelativeToTestModuleStartTime="00:10.901"
+			timeWallClock="16:16:23"
+			time="00:10.901"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>StartAutProcessIDVar
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.919"
+			timeRelativeToTestModuleStartTime="00:10.919"
+			timeWallClock="16:16:23"
+			time="00:10.919"
+			level="Info"
+			category="Application">
+			<message>
+				Run application 'D:\RanorexDemoApp\RxDemoApp.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="d:\Projekte Ranorex Studio\JGA_MyTest1\JGA_MyTest1\StartAUT.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

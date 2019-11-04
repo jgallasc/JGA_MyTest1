@@ -1,0 +1,12 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution JGA_MyTest1[JGA_MyTest1[]]]&#xD;&#xA;Solution JGA_MyTest1\JGA_MyTest1\JGA_MyTest1.rxtst&#xD;&#xA;Solution JGA_MyTest1" />
+  <StartupProject value="{C74CF08C-8CE9-4AAF-8811-00ECFD04DB0D}" />
+</Properties>
