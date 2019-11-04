@@ -6,7 +6,7 @@
       "Name": "template1",
       "Body": {
         "fields": {
-          "summary": "Ranorex test case $(TestCaseId)",
+          "summary": "Autom. Test vom $(Now) - Testfall $(TestCaseName)",
           "description": "Testausführung vom $(Now) --> Rx TestCaseTag $(TestCaseTag)",
           "project": {
             "key": "RXTST"

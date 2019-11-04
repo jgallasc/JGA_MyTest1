@@ -4,7 +4,7 @@
 		<flatlistofchildren>
 			<testcase
 			id="0c433e01-76c7-40e6-9bb9-ae039243148b"
-			name="TestCase">
+			name="Test_Rx-DemoApp_-_Anmeldung+Mitglieder">
 				<description>
 					<![CDATA[Test Rx DemoApp - Anmeldung+Mitglieder]]>
 				</description>
@@ -109,7 +109,7 @@
 					</setup>
 					<testcase
 					id="0c433e01-76c7-40e6-9bb9-ae039243148b"
-					name="TestCase">
+					name="Test_Rx-DemoApp_-_Anmeldung+Mitglieder">
 						<setup
 						id="88fe8740-b104-4b2c-82d0-521201c27dad"
 						name="setup">
