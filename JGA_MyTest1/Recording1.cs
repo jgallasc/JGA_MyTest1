@@ -184,8 +184,8 @@ namespace JGA_MyTest1
             repo.RxMainFrame.RxTabStandard.FirstName.Click("46;11");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='2') on item 'RxMainFrame.RxTabStandard.LblNumberOfPersonsNumber'.", repo.RxMainFrame.RxTabStandard.LblNumberOfPersonsNumberInfo, new RecordItemIndex(26));
-            Validate.AttributeEqual(repo.RxMainFrame.RxTabStandard.LblNumberOfPersonsNumberInfo, "Text", "2");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='3') on item 'RxMainFrame.RxTabStandard.LblNumberOfPersonsNumber'.", repo.RxMainFrame.RxTabStandard.LblNumberOfPersonsNumberInfo, new RecordItemIndex(26));
+            Validate.AttributeEqual(repo.RxMainFrame.RxTabStandard.LblNumberOfPersonsNumberInfo, "Text", "3");
             Delay.Milliseconds(100);
             
         }
